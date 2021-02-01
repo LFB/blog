@@ -1,0 +1,108 @@
+html, body, div, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    box-shadow: 1px 2px 3px #f0f0f0 ;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header {
+    width: 960px;
+    margin: 0 auto;
+    height: 64px;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    height: 64px;
+    background: url("../images/boblog.png") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.navigator-fix {
+    width: 100%;
+    height: 64px;
+    float: right;
+    margin-left: -150px;
+}
+
+.navigator-box {
+    height: 64px;
+    padding-left: 150px;
+}
+
+.navigator-inner {
+    text-align: right;
+    height: 64px;
+    clear: both;
+}
+
+.search {
+    display: inline-block;
+    height: 64px;
+    margin-left: 16px;
+}
+
+.search-input {
+    width: 180px;
+    display: inline-block;
+    padding: 0 5px;
+    height: 24px;
+    border: 1px solid #ccc;
+}
+
+.about {
+    display: inline-block;
+    line-height: 64px;
+    margin-left: 16px;
+}
+
+.about-link {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+.article {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.article-item {
+    margin: 15px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+}
+
+.article-description {
+    margin-top: 5px;
+}
+
+
+.article-created-at {
+    display: inline-block;
+    font-size: 14px;
+    color: #989898;
+}
+
+
+.article-category {
+    display: inline-block;
+    font-size: 14px;
+    color: #989898;
+}
