@@ -4,15 +4,13 @@ html, body, div, h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    width: 100%;
-    box-shadow: 1px 2px 3px #f0f0f0 ;
-    border-bottom: 1px solid #f0f0f0;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .header {
-    width: 960px;
-    margin: 0 auto;
     height: 64px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .logo {
@@ -22,7 +20,7 @@ html, body, div, h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     width: 150px;
     height: 64px;
-    background: url("../images/boblog.png") center center no-repeat;
+    background: url("../images/boblog.png") -16px center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
@@ -52,6 +50,11 @@ html, body, div, h1, h2, h3, h4, h5, h6 {
     margin-left: 16px;
 }
 
+.search-icon {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 .search-input {
     width: 180px;
     display: inline-block;
@@ -72,37 +75,81 @@ html, body, div, h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
+.fixed {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .article {
     width: 960px;
     margin: 0 auto;
 }
 
 .article-item {
-    margin: 15px 0;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    cursor: pointer;
+    height: 64px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    -webkit-transition: background-color .35s, color .35s, margin .45s, -webkit-transform .5s;
+    transition: background-color .35s, color .35s, margin .45s, transform .5s;
 }
 
 .article-title {
-    font-weight: bold;
-    font-size: 24px;
-    color: #000;
+
 }
 
 .article-description {
-    margin-top: 5px;
 }
 
 
-.article-created-at {
+.article-link {
     display: inline-block;
-    font-size: 14px;
-    color: #989898;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #404040;
+    text-decoration: none;
 }
 
+.article-link:hover {
+    color: #0164da;
+    text-decoration: underline;
+}
+
+
+.article-description {
+    display: inline-block;
+    color: #808080;
+    font-size: 14px;
+    padding: 0 10px;
+}
 
 .article-category {
     display: inline-block;
+    color: #808080;
     font-size: 14px;
-    color: #989898;
+    padding-right: 10px;
+}
+.article-created-at {
+    display: inline-block;
+    color: #808080;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.article-hr {
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    background: #808080;
 }
