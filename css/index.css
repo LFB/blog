@@ -17,7 +17,7 @@ body {
 }
 
 .header-inner {
-    height: 64px;
+    height: 56px;
     width: 960px;
     margin: 0 auto;
 }
@@ -28,7 +28,7 @@ body {
     display: inline-block;
     box-sizing: border-box;
     width: 150px;
-    height: 64px;
+    height: 56px;
     background: url("../images/boblog.png") -16px center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -37,25 +37,25 @@ body {
 
 .navigator-fix {
     width: 100%;
-    height: 64px;
+    height: 56px;
     float: right;
     margin-left: -150px;
 }
 
 .navigator-box {
-    height: 64px;
+    height: 56px;
     padding-left: 150px;
 }
 
 .navigator-inner {
     text-align: right;
-    height: 64px;
+    height: 56px;
     clear: both;
 }
 
 .search {
     display: inline-block;
-    height: 64px;
+    height: 56px;
     margin-left: 16px;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .self-introduction {
-    margin-top: 14px;
+    margin-top: 10px;
     box-sizing: border-box;
 }
 
@@ -192,7 +192,7 @@ body {
     float: left;
     display: inline-block;
     color: #808080;
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
     width: 100px;
     height: 56px;
