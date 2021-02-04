@@ -142,55 +142,50 @@ body {
     margin: 32px auto;
 }
 
-.article-item {
-    display: inline-block;
-    width: 100%;
-    text-decoration: none;
+.article-list {
+    display: block;
+    clear: both;
     height: 132px;
+}
+
+.article-item {
+    text-decoration: none;
     -webkit-transition: background-color .35s, color .35s, margin .45s, -webkit-transform .5s;
     transition: background-color .35s, color .35s, margin .45s, transform .5s;
 }
 
-.article-item-fix {
-    width: 100%;
+
+.article-image {
     float: left;
-    margin-right: -100px;
+    width: 100px;
 }
 
-.article-item-box {
-    height: 64px;
-    padding-right: 100px;
+
+.article-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+.article-item-content {
+    overflow: hidden;
+    padding-left: 32px;
 }
 
 .article-title {
-    position: relative;
-    clear: both;
     font-weight: bold;
     font-size: 16px;
     color: #404040;
 }
 
-.article-item :hover .article-title{
+.article-item :hover .article-title {
     color: #0164da;
     text-decoration: underline;
 }
 
-.article-image {
-    float: left;
-    display: inline-block;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-}
 
 .article-description {
     font-size: 14px;
     color: #808080;
     margin: 10px 0;
-}
-
-.article-image img {
-    width: 100%;
-    border-radius: 4px;
 }
