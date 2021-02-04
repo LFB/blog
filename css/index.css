@@ -143,6 +143,9 @@ body {
 }
 
 .article-item {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
     height: 132px;
     -webkit-transition: background-color .35s, color .35s, margin .45s, -webkit-transform .5s;
     transition: background-color .35s, color .35s, margin .45s, transform .5s;
@@ -162,19 +165,12 @@ body {
 .article-title {
     position: relative;
     clear: both;
-}
-
-.article-link {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
     font-weight: bold;
     font-size: 16px;
     color: #404040;
-    text-decoration: none;
 }
 
-.article-link:hover {
+.article-item :hover .article-title{
     color: #0164da;
     text-decoration: underline;
 }
