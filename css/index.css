@@ -17,7 +17,7 @@ body {
 }
 
 .header-inner {
-    height: 56px;
+    height: 64px;
     width: 960px;
     margin: 0 auto;
 }
@@ -28,7 +28,7 @@ body {
     display: inline-block;
     box-sizing: border-box;
     width: 150px;
-    height: 56px;
+    height: 64px;
     background: url("../images/boblog.png") -16px center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -37,7 +37,7 @@ body {
 
 .navigator-fix {
     width: 100%;
-    height: 56px;
+    height: 64px;
     float: right;
     margin-left: -150px;
 }
@@ -49,13 +49,13 @@ body {
 
 .navigator-inner {
     text-align: right;
-    height: 56px;
+    height: 64px;
     clear: both;
 }
 
 .search {
     display: inline-block;
-    height: 56px;
+    height: 64px;
     margin-left: 16px;
 }
 
@@ -139,22 +139,18 @@ body {
 
 .article {
     width: 960px;
-    margin: 0 auto;
+    margin: 32px auto;
 }
 
 .article-item {
-    position: relative;
-    cursor: pointer;
-    height: 64px;
+    height: 132px;
     -webkit-transition: background-color .35s, color .35s, margin .45s, -webkit-transform .5s;
     transition: background-color .35s, color .35s, margin .45s, transform .5s;
-    border-bottom: 1px solid #f0f0f0;
 }
 
 .article-item-fix {
     width: 100%;
     float: left;
-    height: 64px;
     margin-right: -100px;
 }
 
@@ -166,19 +162,14 @@ body {
 .article-title {
     position: relative;
     clear: both;
-    height: 64px;
 }
 
 .article-link {
-    position: absolute;
-    left: 0;
-    top: 0;
     display: inline-block;
     height: 100%;
-    line-height: 64px;
     width: 100%;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 16px;
     color: #404040;
     text-decoration: none;
 }
@@ -188,14 +179,22 @@ body {
     text-decoration: underline;
 }
 
-.article-category {
+.article-image {
     float: left;
     display: inline-block;
-    color: #808080;
-    font-size: 14px;
     position: relative;
     width: 100px;
-    height: 56px;
-    line-height: 56px;
-    text-align: right;
+    height: 100px;
+    overflow: hidden;
+}
+
+.article-description {
+    font-size: 14px;
+    color: #808080;
+    margin: 10px 0;
+}
+
+.article-image img {
+    width: 100%;
+    border-radius: 4px;
 }
