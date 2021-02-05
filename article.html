@@ -5,10 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="波波博客 - BoBlog.com，专注于前端开发技术，前端性能优化！"/>
-    <meta name="keywords" content="波波,博客,波波博客,梁凤波,bo,blog,boblog,前端开发工程师,前端性能优化,JavaScript,css,html"/>
-    <meta name="author" content="梁凤波,liangfengbo,波波,bobo,bobobo"/>
-    <title>波波博客 - boblog.com - 技术博客</title>
+    <title>JavaScript 原型链的作用 - 波波博客 - boblog.com</title>
+    <meta name="keywords" content="JavaScript,原型链"/>
+    <meta name="description" content="JavaScript 原型链的作用"/>
+    <meta property="og:description" content="JavaScript 原型链的作用"/>
+    <meta name="author" content="梁凤波,liangfengbo,波波,bobo"/>
     <link rel="stylesheet" href="./css/article.css">
 </head>
 <body>
@@ -22,8 +23,8 @@
             <div class="navigator-box">
                 <div class="navigator-inner">
                     <div class="self-introduction">
-                        <a href="https://github.com/lfb" target="_blank" class="follow">Follow me on Github</a>
                         <a href="./about.html" class="about">More about me</a>
+                        <a href="https://github.com/lfb" target="_blank" class="follow">Follow me on Github</a>
                     </div>
                 </div>
             </div>
@@ -36,6 +37,9 @@
     <h1 class="title">
         JavaScript 原型链的作用
     </h1>
+    <div class="author">
+        本文原创发布于波波博客 - bobolog.com，转载请注明出处，谢谢合作！
+    </div>
     <div class="content">
         javascript 开展深入了解原型链开展深入了解原型链开展深入了解原型链开展深入了解原型链
 
@@ -45,7 +49,8 @@
         CSS奇思妙想 -- 使用 CSS 创造艺术
 
         将介绍一些利用 CSS 中的 background、mix-blend-mode、mask 及一些相关属性，制作一些稍微复杂、酷炫的背景。
-        通过本文，你将会了解到 CSS background 中更为强大的一些用法，并且学会利用 background 相关的一些属性，采用不同的方式，去创造更复杂的背景图案。在这个过程中，你会更好的掌握不同的渐变技巧，更深层次的理解各种不同的渐变。
+        通过本文，你将会了解到 CSS background 中更为强大的一些用法，并且学会利用 background
+        相关的一些属性，采用不同的方式，去创造更复杂的背景图案。在这个过程中，你会更好的掌握不同的渐变技巧，更深层次的理解各种不同的渐变。
         同时，借助强大的 CSS-Doodle，你将学会如何运用一套规则，快速创建大量不同的随机图案，感受 CSS 的强大，走进 CSS 的美。
         背景基础知识
         我们都知道，CSS 中的 background 是非常强大的。
@@ -54,13 +59,10 @@
         纯色背景 background: #000：
 
 
-
         线性渐变 background: linear-gradient(#fff, #000) :
 
 
-
         径向渐变 background: radial-gradient(#fff, #000) :
-
 
 
         角向渐变 background: conic-gradient(#fff, #000) :
@@ -101,14 +103,11 @@
         可以看到，不同的混合模式的叠加，效果相差非常之大。当然，运用不同的混合模式，我们也就可以创造出效果各异的图案。
         CodePen Demo - Repeating-linear-gradient background & mix-blend-mode
         借助 CSS-Doodle 随机生成图案
-        到这，就不得不引出一个写 CSS 的神器 -- CSS-Doodle，我在其他非常多文章中也多次提到过 CSS-doodle，简单而言，它是一个基于 Web-Component 的库。允许我们快速的创建基于 CSS Grid 布局的页面，并且提供各种便捷的指令及函数（随机、循环等等），让我们能通过一套规则，得到不同 CSS 效果。
-        还是以上面的 DEMO 作为示例，我们将 repeating-linear-gradient 生成的重复条纹背景的颜色、粗细、角度随机化、采用的混合模式也是随机选取，然后利用 CSS-Doodle，快速随机的创建各种基于此规则的图案：
+        到这，就不得不引出一个写 CSS 的神器 -- CSS-Doodle，我在其他非常多文章中也多次提到过 CSS-doodle，简单而言，它是一个基于 Web-Component 的库。允许我们快速的创建基于 CSS Grid
+        布局的页面，并且提供各种便捷的指令及函数（随机、循环等等），让我们能通过一套规则，得到不同 CSS 效果。
+        还是以上面的 DEMO 作为示例，我们将 repeating-linear-gradient 生成的重复条纹背景的颜色、粗细、角度随机化、采用的混合模式也是随机选取，然后利用
+        CSS-Doodle，快速随机的创建各种基于此规则的图案：
 
-
-        作者：chokcoco
-        链接：https://juejin.cn/post/6925600887947657224
-        来源：掘金
-        著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
     </div>
 </div>
 

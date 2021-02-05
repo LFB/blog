@@ -76,9 +76,9 @@ body {
     color: #404040;
 }
 
-.self-introduction .about {
+.self-introduction .follow {
     display: inline-block;
-    width: 150px;
+    padding: 0 24px;
     height: 36px;
     line-height: 36px;
     text-align: center;
@@ -91,9 +91,9 @@ body {
     margin-left: 14px;
 }
 
-.self-introduction .follow {
+.self-introduction .about {
     display: inline-block;
-    width: 190px;
+    padding: 0 24px;
     height: 36px;
     line-height: 36px;
     font-size: 14px;
@@ -110,10 +110,20 @@ body {
 .title {
     font-weight: bold;
     font-size: 36px;
-    margin: 32px 0;
+    margin: 24px 0;
+    text-align: center;
+}
+
+.author {
+    margin-bottom: 24px;
+    color: #9199a1;
+    font-size: 13px;
+    text-align: center;
 }
 
 .content {
     box-sizing: border-box;
     line-height: 2.5;
+    font-size: 16px;
 }
+

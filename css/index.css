@@ -13,7 +13,7 @@ body {
 
 .header {
     box-sizing: border-box;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f4f4f4;
 }
 
 .header-inner {
@@ -76,14 +76,14 @@ body {
     color: #404040;
 }
 
-.self-introduction .about {
+.self-introduction .follow {
     display: inline-block;
-    width: 150px;
+    padding: 0 24px;
     height: 36px;
     line-height: 36px;
     text-align: center;
-    color: #fff;
     font-size: 14px;
+    color: #fff;
     background: #3c81f6;
     border-radius: 4px;
     font-weight: bold;
@@ -91,9 +91,9 @@ body {
     margin-left: 14px;
 }
 
-.self-introduction .follow {
+.self-introduction .about {
     display: inline-block;
-    width: 190px;
+    padding: 0 24px;
     height: 36px;
     line-height: 36px;
     font-size: 14px;
@@ -110,13 +110,15 @@ body {
 /*文章*/
 .article {
     width: 960px;
-    margin: 32px auto;
+    margin: 0 auto;
 }
 
 .article-list {
     display: block;
     clear: both;
-    height: 132px;
+    height: 124px;
+    padding-top: 24px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .article-item {
@@ -140,7 +142,7 @@ body {
 
 .article-item-content {
     overflow: hidden;
-    padding-left: 32px;
+    padding-left: 24px;
 }
 
 .article-title {
