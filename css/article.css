@@ -107,56 +107,13 @@ body {
 }
 
 
-/*文章*/
-.article {
-    width: 960px;
-    margin: 32px auto;
-}
-
-.article-list {
-    display: block;
-    clear: both;
-    height: 132px;
-}
-
-.article-item {
-    text-decoration: none;
-    -webkit-transition: background-color .35s, color .35s, margin .45s, -webkit-transform .5s;
-    transition: background-color .35s, color .35s, margin .45s, transform .5s;
-}
-
-
-.article-image {
-    float: left;
-    width: 100px;
-}
-
-
-.article-image img {
-    width: 100%;
-    border-radius: 4px;
-}
-
-
-.article-item-content {
-    overflow: hidden;
-    padding-left: 32px;
-}
-
-.article-title {
+.title {
     font-weight: bold;
-    font-size: 16px;
-    color: #404040;
+    font-size: 36px;
+    margin: 32px 0;
 }
 
-.article-item :hover .article-title {
-    color: #0164da;
-    text-decoration: underline;
-}
-
-
-.article-description {
-    font-size: 14px;
-    color: #808080;
-    margin: 10px 0;
+.content {
+    box-sizing: border-box;
+    line-height: 2.5;
 }
