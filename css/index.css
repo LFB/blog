@@ -114,14 +114,24 @@ body {
 }
 
 .article-list {
+    box-sizing: border-box;
     display: block;
     clear: both;
-    height: 124px;
+    height: 148px;
     padding-top: 24px;
     border-bottom: 1px solid #f0f0f0;
 }
 
+
+.article-list:hover .article-title {
+    color: #0164da;
+    text-decoration: underline;
+}
+
 .article-item {
+    display: block;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
     -webkit-transition: background-color .35s, color .35s, margin .45s, -webkit-transform .5s;
     transition: background-color .35s, color .35s, margin .45s, transform .5s;
@@ -143,6 +153,7 @@ body {
 .article-item-content {
     overflow: hidden;
     padding-left: 24px;
+    height: 124px;
 }
 
 .article-title {
@@ -151,14 +162,20 @@ body {
     color: #404040;
 }
 
-.article-item :hover .article-title {
-    color: #0164da;
-    text-decoration: underline;
-}
-
 
 .article-description {
     font-size: 14px;
-    color: #808080;
+    color: #404040;
     margin: 10px 0;
+}
+
+.article-info {
+    font-size: 14px;
+    color: #989898;
+    margin-top: 28px;
+}
+
+.article-info span {
+    display: inline-block;
+    margin-right: 10px;
 }
