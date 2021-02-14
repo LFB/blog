@@ -10,7 +10,6 @@ li {
 body {
     font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
-
 .header {
     box-sizing: border-box;
     border-bottom: 1px solid #f0f0f0;
@@ -80,67 +79,7 @@ body {
     margin: 0 auto;
 }
 
-.self-introduction {
-    margin-top: 14px;
-    box-sizing: border-box;
-}
-
-.self-introduction .introduction {
-    font-size: 18px;
-    font-weight: 400;
-    color: #404040;
-}
-
-.self-introduction .follow {
-    display: block;
-    padding: 0 24px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-    background: #3c81f6;
-    border-radius: 4px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.self-introduction .about {
-    display: block;
-    padding: 0 24px;
-    height: 36px;
-    line-height: 36px;
-    font-size: 14px;
-    text-align: center;
-    color: #404040;
-    font-weight: bold;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 24px;
-    text-decoration: none;
-}
-
-
 /*文章*/
-.article {
-}
-
-.intro {
-    margin: 12px 0;
-    color: #989898;
-}
-
-.funnydata {
-    box-sizing: border-box;
-    padding: 50%;
-    background: #f8f8f8;
-    border-radius: 4px;
-    background: url('../images/pic.jpg') center center no-repeat;
-    background-size: 100%;
-    background-color: #f4f4f4;
-}
-
 .article-list {
     box-sizing: border-box;
     display: block;
@@ -148,6 +87,10 @@ body {
     height: 148px;
     padding-top: 24px;
     border-bottom: 1px solid #f0f0f0;
+}
+
+.article-list:last-child {
+    border: none;
 }
 
 
@@ -194,15 +137,34 @@ body {
 .article-description {
     font-size: 14px;
     color: #404040;
-    margin: 10px 0;
+    margin: 12px 0 24px;
 }
 
-.article-info {
+.article-category {
     font-size: 14px;
-    color: #989898;
+    color: #808080;
 }
 
-.article-info span {
-    display: inline-block;
-    margin-right: 10px;
+.copyright {
+    padding: 32px 0;
+    color: #9199a1;
+    font-size: 13px;
+    text-align: center;
+    background: #f8f8f8;
 }
+
+.copyright-item {
+    color: #9199a1;
+    text-decoration: none;
+}
+.copyright-item:hover {
+    color: #0164da;
+}
+.copyright-mark {
+    display: inline-block;
+    margin: 0 10px;
+    height: 10px;
+    width: 1px;
+    background: #ccc;
+}
+

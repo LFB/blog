@@ -91,21 +91,24 @@ a {
 }
 
 .info {
-    margin-bottom: 24px;
     text-align: center;
+    margin: 24px 0 32px;
 }
 
 .info span {
-    color: #9199a1;
+    color: #808080;
     font-size: 14px;
     display: inline-block;
     margin: 0 10px;
 }
-.author {
-    margin: 32px auto;
+
+.copyright {
+    padding: 32px 0;
     color: #9199a1;
-    font-size: 14px;
+    margin-top: 32px;
+    font-size: 13px;
     text-align: center;
+    background: #f8f8f8;
 }
 
 .text {
